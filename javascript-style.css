@@ -1,0 +1,57 @@
+.main{
+	width: 800px;
+	margin: auto;	
+    font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+	background-color: #ece51f;	
+	border-radius: 10px;
+}
+
+#btn-add{
+	text-decoration: none;
+	color: black;
+}
+
+#main-left{
+	width:350px;
+	height:600px;
+	float:left;
+	background-color:#541fec;
+	margin-bottom:10px;
+	border-radius: 10px;
+}
+
+#main-right{
+	width:350px;
+	height:600px;
+	float:left;
+	background-color:#ec1f1f;
+	margin-left:100px;
+	margin-bottom:10px;
+	border-radius: 10px;
+}
+
+#todo-list{
+	list-style: none;
+	width: 100%;
+	padding-left: 0;
+}
+
+#todo-item{
+	border: 1px solid gray;
+	height: 30px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+#todo-list .complete{
+	float: right;
+	text-decoration: none;
+	color: black;
+}
+
+
+
